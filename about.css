@@ -1,0 +1,293 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 15vh;
+    background-image: linear-gradient(rgb(226, 226, 226), black);
+}
+.logos {
+    flex: 3;
+    margin-left: 5%;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.nav>a {
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 16px;
+}
+.nav>a:hover {
+    color: rgb(189, 189, 189);
+    font-size: 19px;
+    animation: nav 0.5s;
+}
+.hero-imager {
+    display: flex;
+    flex-direction: column;
+    background-image: url(aboutimage/wallpapersden.com_cybertruck-4k_3840x2160.jpg);
+    background-size: 75%;
+    background-position: bottom;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    height: 20rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.amelia {
+    font-size: 35px;
+}
+.herotext {
+    width: 37%;
+    text-align: center;
+    color: rgb(209, 209, 209);
+}
+.number-info {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    height: 14rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(black, gray);
+
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+}
+.info>li {
+    display: flex;
+    margin: 0 auto;
+    height: 5rem;
+    font-size: 13px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.pc {
+    width: 20%;
+}
+.wh {
+    width: 20%;
+}
+.pf {
+    width: 20%;
+}
+.hc {
+    margin: 0;
+    width: 15%;
+}
+.fas, .far {
+    font-size: 2rem;
+}
+.pc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.little-box {
+    margin: 1px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 4%;
+}
+.wh {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-Tesla {
+    display: flex;
+    height: 35rem;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.tesla-plasma {
+    width: 50%;
+    height: 100%;
+    background-image: url(aboutimage/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    background-size: 90%;
+    background-position: right;
+}
+.tesla-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    width: 50%;
+    color: white;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-me-text {
+    font-size: 28px;
+}
+.introduction {
+    width: 75%;
+}
+.short-text {
+    width: 75%;
+}
+.signature {
+    background-image: url(aboutimage/signature.png);
+    background-size: 130%;
+    background-position: bottom;
+    height: 13vh;
+    width: 40%;
+}
+.need-a-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    height: 23rem;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.need {
+    font-size: 30px;    
+}
+.letusknow {
+    width: 43%;
+    color: rgb(54, 54, 54);
+}
+.letstalk {
+    font-size: 20px;
+    padding: 0.9% 2.5%;
+    background-color: rgb(83,101,115);
+    color: white;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+.letstalk:hover {
+    pointer-events: all;
+    background-color: black;
+    padding: 1% 2.6%;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(43, 43, 43), rgb(0, 0, 0));
+    height: 15rem;
+}
+.footer>div {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inc {
+    font-size: 17px;
+}
+.k17 {
+    color: gray;
+    font-size: 14px;
+}
+.designed {
+    color: gray;
+    font-size: 14px;
+}
+.piroll {
+    display: flex;
+    flex-direction: column;
+}
+.mail {
+    margin: 5px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+.number {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer3 {
+    display: flex;
+    flex-direction: column;
+}
+.footer3>a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    list-style: none;
+    margin: 3px 0;
+    font-size: 14px;
+}
+.footer4 {
+    display: flex;
+    margin-left: -10%;
+    flex-direction: column;
+}
+.footer4>a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    list-style: none;
+    margin: 3px 0;
+    font-size: 14px;
+}
+.footer5 {
+    display: flex;
+    flex-direction: column;
+}
+.footer5>a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    list-style: none;
+    margin: 3px 0;
+    font-size: 14px;
+}

@@ -1,0 +1,246 @@
+tml, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 15vh;
+    background-color: white;
+}
+.logos {
+    flex: 3;
+    margin-left: 5%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.nav>a {
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 16px;
+}
+.nav>a:hover {
+    color: rgb(189, 189, 189);
+    font-size: 19px;
+    animation: nav 0.5s;
+}
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    height: 35rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(white, rgb(138, 137, 137));
+}
+.contact-color {
+    display: flex;
+    max-width: 90%;
+    width: 100%;
+}
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-text>p {
+    width: 70%;
+    font-weight: 500;
+}
+.email>a {
+    text-decoration: none;
+    color: rgb(6, 66, 112);
+}
+.email>a:hover {
+    font-size: 17px;
+}
+.phone {
+    font-size: 16px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 4%;
+}
+.firstone{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.urname {
+    flex: 3;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+.uremail {
+    flex: 3;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+.secondone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.urtitle {
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+.urcomment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 10rem;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+.sendmess {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 30%;
+    align-items: flex-start;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(10, 68, 112);
+    border-radius: 4px;
+}
+.map-holder {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(138, 137, 137);
+    height: 30rem;
+}
+.move-map {
+    display: flex;
+    max-width: 90%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(43, 43, 43), rgb(0, 0, 0));
+    height: 15rem;
+}
+.footer>div {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inc {
+    font-size: 17px;
+}
+.k17 {
+    color: gray;
+    font-size: 14px;
+}
+.designed {
+    color: gray;
+    font-size: 14px;
+}
+.piroll {
+    display: flex;
+    flex-direction: column;
+}
+.mail {
+    margin: 5px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+.number {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer3 {
+    display: flex;
+    flex-direction: column;
+}
+.footer3>a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    list-style: none;
+    margin: 3px 0;
+    font-size: 14px;
+}
+.footer4 {
+    display: flex;
+    margin-left: -10%;
+    flex-direction: column;
+}
+.footer4>a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    list-style: none;
+    margin: 3px 0;
+    font-size: 14px;
+}
+.footer5 {
+    display: flex;
+    flex-direction: column;
+}
+.footer5>a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    list-style: none;
+    margin: 3px 0;
+    font-size: 14px;
+}

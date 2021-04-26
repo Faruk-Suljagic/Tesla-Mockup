@@ -1,0 +1,235 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.contaienr-all {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+}
+.logos {
+    flex: 3;
+    margin-left: 5%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.nav>a {
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 15px;
+}
+.nav>a:hover {
+    color: rgb(90, 90, 90);
+    font-size: 19px;
+    animation: nav 0.5s;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 57.5rem;
+    background-color: rgb(241, 241, 241);
+}
+.uiux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.uiux>h2 {
+    font-size: 35px;
+    font-weight: 550;
+}
+.uiux>p {
+    width: 60%;
+    text-align: center;
+    color: rgb(83, 83, 83);
+}
+.pictures {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+.pictures2 {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+.pictures>li{
+    width: 30%;
+    height: 12.5rem;
+    list-style: none;
+}
+.pictures2>li{
+    width: 25%;
+    list-style: none;
+    height: 12.5rem;
+}
+.pictures3 {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+.pictures3  >li{
+    width: 30%;
+    height: 12.5rem;
+    list-style: none;
+}
+.t1 {
+    background-image: url(images/t1.jpg);
+    background-size: 100%;
+}
+
+.t2 {
+    background-image: url(images/t2.jpg);
+    background-size: 100%;
+}
+.t4 {
+    background-image: url(images/t4.jpg);
+    background-size: 100%;
+}
+.t3 {
+    background-image: url(images/t3.jpg);
+    background-size: 100%;
+}
+.t9 {
+    background-image: url(homeimg/xhp7Vq.jpg);
+    background-size: 100%;
+}
+.t10 {
+    background-image: url(homeimg/OZ3dbx.jpg);
+    background-size: 100%;
+}
+.t11 {
+    background-image: url(homeimg/F9pkqU.jpg);
+    background-size: 100%;
+}
+.t12 {
+    background-image: url(homeimg/AMhiCs.jpg);
+    background-size: 100%;
+}
+.t5 {
+    background-image: url(images/t5.jpg);
+    background-size: 100%;
+}
+.t6 {
+    background-image: url(images/t6.jpg);
+    background-size: 100%;
+}
+.t7 {
+    background-image: url(images/t7.jpg);
+    background-size: 100%;
+}
+.t8 {
+    background-image: url(images/t8.jpg);
+    background-size: 100%;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(43, 43, 43), rgb(0, 0, 0));
+    height: 15rem;
+}
+.footer>div {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inc {
+    font-size: 17px;
+}
+.k17 {
+    color: gray;
+    font-size: 14px;
+}
+.designed {
+    color: gray;
+    font-size: 14px;
+}
+.piroll {
+    display: flex;
+    flex-direction: column;
+}
+.mail {
+    margin: 5px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+.number {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer3 {
+    display: flex;
+    flex-direction: column;
+}
+.footer3>a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    list-style: none;
+    margin: 3px 0;
+    font-size: 14px;
+}
+.footer4 {
+    display: flex;
+    margin-left: -10%;
+    flex-direction: column;
+}
+.footer4>a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    list-style: none;
+    margin: 3px 0;
+    font-size: 14px;
+}
+.footer5 {
+    display: flex;
+    flex-direction: column;
+}
+.footer5>a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    list-style: none;
+    margin: 3px 0;
+    font-size: 14px;
+}
+
